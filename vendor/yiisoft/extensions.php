@@ -30,10 +30,19 @@ return array (
       '@yii/swiftmailer' => $vendorDir . '/yiisoft/yii2-swiftmailer/src',
     ),
   ),
+  'yiisoft/yii2-twig' => 
+  array (
+    'name' => 'yiisoft/yii2-twig',
+    'version' => '2.0.6.0',
+    'alias' => 
+    array (
+      '@yii/twig' => $vendorDir . '/yiisoft/yii2-twig',
+    ),
+  ),
   'yiisoft/yii2-debug' => 
   array (
     'name' => 'yiisoft/yii2-debug',
-    'version' => '2.1.6.0',
+    'version' => '2.1.7.0',
     'alias' => 
     array (
       '@yii/debug' => $vendorDir . '/yiisoft/yii2-debug/src',
