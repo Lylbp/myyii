@@ -9,6 +9,7 @@ class TestController extends Controller
 {
     public function actionSay($message = 'Hello')
     {
-        return $this->render('say', ['message' => $message]);
+        $data['arr'] = array("a","b");
+        return $this->render('say.twig', $data);
     }
 }
